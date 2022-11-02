@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+html{
+  margin: 10px;
+}
+
+
+body{
+  font-family: 'Oswald', sans-serif; 
+  background-color:black;
+  color: white;
+}
+#hero{
+    background-image: url("https://picsum.photos/1100");
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+  
+}
+
+
+h1{
+    color: rgb(44, 224, 44);
+
+}
+.smartphone,
+.laptop,
+.fragrance,
+.skincare,
+.groceries,
+.home
+ {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 460px;
+  border: solid rgb(44, 224, 44);
+  border-radius: 10px;
+  margin: 4px;
+  padding-bottom: 4px;
+
+
+
+}
+
+.card h1,
+.card p {
+  padding: 6px 16px;
+}
+
+.card img {
+  width: 200px;
+  align-self: center;
+}
+
+
+
+
+
+    /* Desktop */
+@media only screen and (min-width: 1280px) {
+
+    body {
+        margin: 0 200px;
+        border-left: 1px solid rgba(148, 248, 176, 0.619);
+        border-right: 1px solid rgba(148, 248, 176, 0.619);
+    }
+}
