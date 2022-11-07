@@ -2,7 +2,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
    .then(response => response.json()) //converte a json
    .then(users => users.map((user) => 
         console.log("Name: " + user.name, 
-        "\n", "Address: " + Object.values(user.address)+ Object.values(user.address.geo),
+        "\n", "Address: " + JSON.stringify(user.address), 
         "\n", "City: " + user.address.city))) //stampa i dati
    .catch((err) => console.log("error: " + err))
    .finally (() => console.log("-----------done----------"));
