@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 2% 4%;
+    background-color: rgb(207, 196, 196); 
+    background-image: linear-gradient(to right, rgb(207, 196, 196) , rgb(202, 219, 157));
+    font-family: rubik;
+}
+
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 5px rgb(149, 145, 145);
+}
+
+.card img {
+    width: 100%;
+    height: 40%;
+    margin: 20px 6px 0 6px;
+    padding: 10px 0;
+}
+
+.pokemon-id {
+    z-index: 999;
+    margin: 0;
+    background-color: rgba(156, 150, 150, 0.466);
+    border-radius: 16px;
+    padding: 6px 20px;
+    font-weight: 500;
+}
+
+.card h1 {
+    font-size: 20px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.pokemon-type {
+    padding-bottom: 10px;
+    font-weight: 500;
+}
