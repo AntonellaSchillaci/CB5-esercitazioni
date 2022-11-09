@@ -1,0 +1,203 @@
+body {
+    background-color: rgb(207, 196, 196); 
+    background-image: linear-gradient(to right, rgb(207, 196, 196) , rgb(202, 219, 157));
+    font-family: rubik;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 70px;
+}
+.loading {
+    display: none;
+}
+
+.loading img {
+
+    width: 250px;
+}
+
+.loading p {
+    font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+
+.active {
+    display: block;
+}
+.title { 
+    padding: 20px;
+    position: absolute;
+    margin-top: -100px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 5px rgb(149, 145, 145);
+}
+
+.card:hover {
+    border: solid 1px black;
+    cursor: pointer;
+    width: 220px;
+    height: 320px;
+} 
+
+.card img {
+    max-width: 50%;
+    height: 40%;
+    padding: 10px 0;
+}
+
+.pokemon-id {
+    margin: 0;
+    background-color: rgba(156, 150, 150, 0.466);
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.card h1 {
+    font-size: 30px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.pokemon-type {
+    padding-bottom: 10px;
+    font-size: medium;
+}
+
+.ice {
+    background: #98d8d8;
+  }
+
+.ice:hover {
+    border: solid 2px #00dcdc;
+}
+  
+  .ghost {
+    background: #705898;
+  }
+
+  .ghost:hover {
+    border: solid 2px #5f00f9;
+  }
+  
+  .grass {
+    background: #defde0;
+  }
+
+  .grass:hover {
+    border: solid 2px #05eb14;
+  }
+  
+  .fire {
+    background: #fddfdf;
+  }
+  
+  .fire:hover {
+    border: solid 2px #fb0000;
+  }
+  .normal {
+    background: #f5f5f5;
+  }
+
+  .normal:hover {
+    border: solid 2px #000000;
+  }
+  
+  .fighting {
+    background: #e6e0d4;
+  }
+
+  .fighting:hover {
+    border: solid 2px #dd9300;
+  }
+  
+  .flying {
+    background: #f5f5f5;
+  }
+
+  .flying:hover {
+    border: solid 2px #4a0000;
+  }
+  
+  .psychic {
+    background: #eaeda1;
+  }
+
+  .psychic:hover {
+    border: solid 2px #e0e800;
+  }
+  
+  .dragon {
+    background: #97b3e6;
+  }
+
+  .dragon:hover {
+    border: solid 2px #004fe2;
+  }
+  
+  .bug {
+    background: #f8d5a3;
+  }
+
+  .bug:hover {
+    border: solid 2px #c07102;
+  }
+  
+  .poison {
+    background: #98d7a5;
+  }
+
+  .poison:hover {
+    border: solid 2px #00b925;
+  }
+  
+  .fairy {
+    background: #fceaff;
+  }
+
+  .fairy:hover {
+    border: solid 2px #d100f6;
+  }
+  
+  .electric {
+    background: #fcf7de;
+  }
+
+  .electric:hover {
+    border: solid 2px #ffde39;
+  }
+  
+  .water {
+    background: #def3fd;
+  }
+
+  .water:hover {
+    border: solid 2px #42bdf6;
+  }
+  
+  .ground {
+    background: #f4e7da;
+  }
+  
+  .ground:hover {
+    border: solid 2px #b68655;
+  }
+  .rock {
+    background: #d5d5d4;
+  }
+
+  .rock:hover {
+    border: solid 2px #a6a636;
+  }
