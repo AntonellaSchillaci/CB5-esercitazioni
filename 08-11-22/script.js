@@ -10,6 +10,7 @@ const createCard = (data) => {
     const idEl = document.createElement("p");
     idEl.className = "pokemon-id";
     idEl.textContent = `#${data.id}`;
+    
 
     const nameEl = document.createElement("h1");
     nameEl.textContent = data.name;
@@ -78,14 +79,20 @@ const createCard = (data) => {
     cardEl.append(imgEl, idEl, nameEl, typeEl);
     bodyEl.append(cardEl);
 }
+const loadingEl = document.querySelector(".loading");
+const urlArray = [];
 
-fetch("https://pokeapi.co/api/v2/pokemon/?limit=150")
-    .then((response) => response.json())
-    .then((poke) => {
-        poke.results.forEach((item) => fetch(item.url)
-        .then((res) => res.json()
-        .then((pokemon) => createCard(pokemon))))})
-    .catch((error) => console.log(`ERRORE: ${error}`))
+for(let i= 1; i<=150; i++) {
+    urlArray.push(`https://pokeapi.co/api/v2/pokemon/${i}`);
+}
+
+let request = urlArray.map((url) => {
+    return fetch(url)
+    .then((res) => res.json());
+});
+
+Promise.all(request)
+.then((res) => res.map((r) => createCard(r)))
 
 
 
