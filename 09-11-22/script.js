@@ -4,7 +4,7 @@ const createCard = (data) => {
     const cardEl = document.createElement("div");
     cardEl.className = "card";
     cardEl.classList.add (data.types[0].type.name);
-    console.log(cardEl)
+    
 
     const imgEl = document.createElement("img");
     imgEl.setAttribute("src", data.sprites.other.dream_world.front_default);
