@@ -1,0 +1,175 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  background-color: rgb(207, 196, 196); 
+  background-image: linear-gradient(to right, rgb(207, 196, 196) , rgb(202, 219, 157));
+  font-family: rubik;
+}
+
+.loading {
+  display: none;
+}
+
+.loading img {
+
+  width: 250px;
+}
+
+.loading p {
+  font-weight: bold;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+}
+
+#card {
+  border-radius: 20px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  max-width:300px;
+  max-height:500px;
+  
+}
+
+#card img {
+  max-width: 200px;
+  padding: 10px;
+}
+
+#card h1 {
+  text-transform: capitalize;
+}
+
+.pokemon_id {
+  margin: 0;
+  background-color: rgba(156, 150, 150, 0.466);
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.pokemon-type {
+  padding-bottom: 10px;
+  font-size: large;
+  font-weight: bold;
+} 
+
+.button {
+  display: flex;
+  gap: 20px;
+ 
+}
+
+.prev {
+  background-color: rgb(235, 214, 139);
+  border: 2px solid rgb(238, 196, 47);
+  border-radius: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.next {
+  background-color: rgb(235, 214, 139);
+  border: 2px solid rgb(238, 196, 47);
+  border-radius: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+}
+
+
+.prev:hover, .next:hover {
+  font-weight: bold;
+  background-color: #df531c;
+  color: white;
+}
+
+.grass {
+  background-color: #DEFDE0;
+}
+
+.electric {
+  background-color: #FCF7DE;
+}
+
+.water {
+  background-color: #DEF3FD;
+}
+
+.ground {
+  background-color: #f4e7da;
+}
+
+.rock {
+  background-color: #d5d5d4;
+}
+
+.fairy {
+  background-color: #fceaff;
+}
+
+.poison {
+  background-color: #98d7a5;
+}
+
+.bug {
+  background-color: #f8d5a3;
+}
+
+.dragon {
+  background-color: #97b3e6;
+}
+
+.psychic {
+  background-color: #eaeda1;
+}
+
+.flying {
+  background-color: #F5F5F5;
+}
+
+.fighting {
+  background-color: #E6E0D4;
+}
+
+.normal {
+  background-color: #F5F5F5;
+}
+
+.fire {
+  background-color: #FDDFDF;
+}
+
+.ghost {
+  background-color: #705898;
+}
+
+.ice {
+  background-color: #98d8d8;
+}
+
+.active {
+  width: 60vw;
+  height: 40vh;
+  margin: 0 10px;
+}
+
+.active h2 {
+  display: none;
+}
+
+.active p {
+  display: none;
+}
+
+.active img {
+  display: none;
+}
+
