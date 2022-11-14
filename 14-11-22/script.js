@@ -47,7 +47,6 @@ bodyEl.textContent = data.body;
 
 cardEl.append(titleEl, idEl, bodyEl);
 }
-const caric = document.querySelector (".loading")
 
 const posts = async (i) => {
     let response = await fetch(`https://jsonplaceholder.typicode.com/posts//${i}`);
