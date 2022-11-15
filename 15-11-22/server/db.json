@@ -1,0 +1,39 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Bulbasarur",
+      "type": "grass"
+    },
+    {
+      "id": "08be0d68-dc69-4019-afdb-f9f164efcc76",
+      "name": "Ivysaur",
+      "type": "grass"
+    },
+    {
+      "id": "07e5675b-b679-42d5-918a-ad3991ba5c9f",
+      "name": "venusaur",
+      "type": "grass"
+    },
+    {
+      "id": "2c18c468-aaed-4840-b856-0a58d30ed47f",
+      "name": "Charmander",
+      "type": "fire"
+    },
+    {
+      "id": "b081a3c5-207a-4f6b-bf72-3994f0069a97",
+      "name": "Charmeleon",
+      "type": "fire"
+    },
+    {
+      "id": "942e9dba-12a9-4133-9b73-614c92527f96",
+      "name": "Charizard",
+      "type": "fire"
+    },
+    {
+      "id": "e98be0aa-73b4-424a-a2af-e3f1c800bdda",
+      "name": "Squirtle",
+      "type": "water"
+    }
+  ]
+}
