@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Source+Sans+Pro:wght@400;700&family=Syne+Mono&display=swap');
+body {
+    background-color: rgb(146, 184, 146);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, h2 {
+    font-family: 'Syne Mono', monospace;
+    text-align: center;
+    font-size: 50px;
+    line-height: 150%;
+    color: rgb(60, 27, 169);
+    text-shadow: -1px 0 #2bff00, 0 1px #2bff00, 1px 0 #2bff00, 0 -1px #2bff00;
+}
+
+.form {
+    border: solid #2bff00;
+    padding: 20px;
+    max-width: 400px;
+    background-image: linear-gradient(to right, #00b09b, #96c93d);
+    
+}
+
+.name {
+    margin: 10px 40px;
+    padding: 10px;
+    width: 300px;
+    font-family: 'BhuTuka Expanded One', cursive; 
+    font-size: 20px;
+    cursor:pointer;
+    color: rgb(60, 27, 169);
+    text-transform: uppercase;
+    
+}
+.name:hover {
+    border: solid 2px rgb(60, 27, 169);
+}
+
+
+.type {
+    padding: 10px;
+    margin: 10px 40px;
+    width: 300px;
+    font-family: 'BhuTuka Expanded One', cursive; 
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    color: rgb(60, 27, 169);
+    text-transform: uppercase;
+}
+
+.type:hover {
+    border: solid 2px rgb(60, 27, 169);
+}
+
+.button {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(60, 27, 169);
+    color:white;
+    border: solid 2px #2bff00;
+    font-family: 'Syne Mono', monospace;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 150px;
+    cursor: pointer;
+}
+
+.button:hover, .btn:hover {
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    box-shadow: -1px 1px 88px 12px rgba(60, 27, 169, 1);
+    -webkit-box-shadow: -1px 1px 88px 12px rgba(60, 27, 169, 1);
+    -moz-box-shadow: -1px 1px 88px 12px rgba(60, 27, 169, 1);
+    transition: all ease-in-out 0.3s;
+}
+
+.pokemonList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+}
+
+.pokemonList li {
+    border: solid 2px #2bff00;
+    width: 420px;
+    background-image: linear-gradient(to left, #00b09b37, #96c93d39);
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+ 
+  
+    
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(60, 27, 169);
+    color:white;
+    border: solid 2px #2bff00;
+    font-family: 'Syne Mono', monospace;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;  
+}

@@ -1,0 +1,29 @@
+{
+  "pokemon": [
+    {
+      "id": "b220124b-deb1-4150-8336-a7a755edba13",
+      "name": "bulbasaur",
+      "type": "erba"
+    },
+    {
+      "id": "0d42ebba-4fcb-461a-b66b-c3711631f754",
+      "name": "Venusaur",
+      "type": "erba"
+    },
+    {
+      "id": "59e87c11-4857-4ae1-8713-e1ca7b89321b",
+      "name": "Charmander",
+      "type": "fuoco"
+    },
+    {
+      "id": "8046e803-7f39-49b8-aba8-2a1a004e85c4",
+      "name": "Charizard",
+      "type": "fuoco"
+    },
+    {
+      "id": "6d03c155-bc45-48e3-a965-b4a984df9184",
+      "name": "-----",
+      "type": "fuoco"
+    }
+  ]
+}
