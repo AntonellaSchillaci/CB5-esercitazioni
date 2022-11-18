@@ -33,9 +33,11 @@ GET(BASE_URL).then((data) => {
 
 inputEl.addEventListener("input", (e) => {
   const searchString = e.target.value;
-  const filteredProd = productsList.filter((prod) => {
-    return prod.title.includes(searchString);
-  });
-  console.log(filteredProd);
+
+  cardList.replaceChildren();
+  
+  productsList
+    .filter(product => product?.title.includes(searchString))
+    .map(product => createCardEl(product, cardList))
 });
 
