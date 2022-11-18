@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS - Pokémon</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+  
+    <section class="form">
+      <h1>Pokémon</h1>
+      <form name="pokemon" autocomplete="off">
+        <input class="name" type="text" name="name" placeholder="Name" />
+        <input class="type" type="text" name="type" placeholder="Type" />
+            <input class="button" type="submit" value="Save"/>
+      </form>
+
+      <form name="pokemonPatch" autocomplete="off">
+        <input class="name" type="text" placeholder="Insert Id" name="id">
+        <input class="name" type="text" placeholder="Insert Name" name="name">
+        <input class="type" type="text" placeholder="Insert Type" name="type">
+        <input class="button" type="submit" value="Modify" />
+      </form>
+    </section>
+
+    <section class="list">
+      <h2>Lista Pokémon</h2>
+      <div class="card">
+        <ul class="pokemonList"></ul>
+      </div>
+    </section>
+   
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/utils.js"></script>
+    <script type="module" src="./js/api.js"></script>
+  </body>
+</html>

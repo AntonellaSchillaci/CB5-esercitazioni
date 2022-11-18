@@ -1,0 +1,34 @@
+{
+  "pokemon": [
+    {
+      "id": "b220124b-deb1-4150-8336-a7a755edba13",
+      "name": "bulbasaur",
+      "type": "grass"
+    },
+    {
+      "id": "0d42ebba-4fcb-461a-b66b-c3711631f754",
+      "name": "charmender",
+      "type": "fire"
+    },
+    {
+      "id": "5d1fd313-2d85-4c88-9a21-97cbffaaa6a2",
+      "name": "star",
+      "type": "water"
+    },
+    {
+      "id": "393a845f-2dca-4115-be51-5f1355404dd4",
+      "name": "Jigglypuff",
+      "type": "normal"
+    },
+    {
+      "id": "c4cd340a-70a3-43d2-a2c3-8c63e617026c",
+      "name": "Psyduck",
+      "type": "water"
+    },
+    {
+      "id": "f1dc51bb-82b9-4206-9eb2-2e325e883fbd",
+      "name": "venusaur",
+      "type": "grass"
+    }
+  ]
+}
