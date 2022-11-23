@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px;
+    background-color: rgb(81, 79, 79);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.218);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.formButton {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.formButton:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.block {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+     
+.operazione {
+    margin: 100px 0;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.218);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+}
+
+.num {
+    font-size: 15px;
+    margin: 20px;
+    padding: 8px;
+}
+
+.res {
+    font-size: 15px;
+    margin: 20px;
+    padding: 8px 18px;
+    position: relative;
+    left: 100px;
+}
+
+
+.totButton {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+    margin: 10px 0;
+    padding: 10px 25px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    left: 160px;
+   
+}
+
+.totButtonM {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+    margin: 10px 0;
+    padding: 10px 25px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    left: 140px;
+   
+}
+
+.totButtonM:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.totButton:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.buttonHome {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+    margin: 10px 0;
+    padding: 10px 25px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    top: 100px;
+    cursor: pointer;
+    
+}
+
+.buttonHome:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none; 
+}
