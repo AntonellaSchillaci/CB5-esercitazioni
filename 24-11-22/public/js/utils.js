@@ -60,3 +60,7 @@ btnSum.addEventListener("click", () => {
     console.log(url);
     GET(url);
 });
+
+
+
+
