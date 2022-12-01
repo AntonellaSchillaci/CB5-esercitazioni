@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nome": "Steven",
+    "cognome": "Spielberg",
+    "data_nascita": "18/12/1946",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1978",
+    "fine_attivita": "",
+    "in_attivita": true
+  },
+  {
+    "id": 2,
+    "nome": "Tim",
+    "cognome": "Burton",
+    "data_nascita": "25/08/1958",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1985",
+    "fine_attivita": "",
+    "in_attivita": true
+  },
+  {
+    "id": 3,
+    "nome": "Alfred",
+    "cognome": "Hitchcock",
+    "data_nascita": "13/08/1899",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1925",
+    "fine_attivita": "29/04/1980",
+    "in_attivita": "false"
+  },
+  {
+    "id": 4,
+    "nome": "Martin",
+    "cognome": "Scorsese",
+    "data_nascita": "17/11/1942",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1969",
+    "fine_attivita": "",
+    "in_attivita": "true"
+  },
+  {
+    "id": 5,
+    "nome": "Sergio",
+    "cognome": "Leone",
+    "data_nascita": "03/01/1929",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1948",
+    "fine_attivita": "1989",
+    "in_attivita": "false"
+  }
+]

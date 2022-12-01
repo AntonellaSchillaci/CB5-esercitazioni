@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+
+body {
+    background-color: rgb(53, 49, 49);
+    font-family: 'Yuji Syuku', serif; 
+}
+
+
+
+.title {
+    border: solid yellow;
+    padding: 70px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #fffbd5, #b20a2c);
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 20px;
+}
+
+.title_attori {
+    border: solid yellow;
+    padding: 70px;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient( circle 759px at -6.7% 50%, rgba(80,131,73,1) 0%, rgba(140,209,131,1) 26.2%, rgba(178,231,170,1) 50.6%, rgba(144,213,135,1) 74.1%, rgba(75,118,69,1) 100.3% );
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 20px;
+}
+
+.sub_title_attori{
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.container {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.btnLink {
+    display: flex;
+    justify-content: center;
+}
+
+.btnLink a {
+    text-decoration: none;
+}
+.formButton, .btnEdit{
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+
+
+.formButton:hover, .btnEdit:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.formButtonHome {
+    background-image: linear-gradient(to right,rgba(80,131,73,1) 0%, rgba(140,209,131,1) 51%, rgba(80,131,73,1)  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    width: 320px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+
+
+.formButtonHome:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.input {
+    padding: 10px 5px;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+.input:focus {
+    outline: 2px solid yellow;
+}
+
+.input-edit {
+    width: 150px;
+    padding: 10px 5px;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+.input-edit:focus {
+    outline: 2px solid yellow;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.homeButton {
+    background-image: linear-gradient(to right, #D31027 0%, #EA384D  51%, #D31027  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.homeButton:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.secButton {
+    background-image: linear-gradient(to right, #44d310 0%, #91ff69  51%, #44d310  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer; 
+}
+
+.secButton:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.regButton {
+    background-image: linear-gradient(to right, #1088d3 0%, #68b5e5  51%, #1088d3  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    font-size: 22px;
+    width: 280px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.regButton:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.attButton {
+    background-image: linear-gradient(to right, #44d310 0%, #91ff69  51%, #44d310  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    font-size: 22px;
+    width: 280px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.attButton:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.btnHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnHome a {
+    text-decoration: none;
+}
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+   body {
+    margin: 0 50px;
+   }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+    body {
+        margin: 0 100px;
+       }
+}
