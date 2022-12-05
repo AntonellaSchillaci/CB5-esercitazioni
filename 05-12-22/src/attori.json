@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "nome": "Tom",
+    "cognome": "Cruise",
+    "data_nascita": "03/07/1962",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1980",
+    "fine_attivita": "",
+    "in_attivita": "true"
+  },
+  {
+    "id": 2,
+    "nome": "Robert",
+    "cognome": "De Niro",
+    "data_nascita": "17/08/1943",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1960",
+    "fine_attivita": "",
+    "in_attivita": true
+  },
+  {
+    "id": 3,
+    "nome": "Eva",
+    "cognome": "Green",
+    "data_nascita": "06/07/1980",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "2004",
+    "fine_attivita": "",
+    "in_attivita": "true"
+  },
+  {
+    "id": 4,
+    "nome": "Leonardo",
+    "cognome": "DiCaprio",
+    "data_nascita": "11/12/1974",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1991",
+    "fine_attivita": "",
+    "in_attivita": "true"
+  },
+  {
+    "id": 5,
+    "nome": "Orlando",
+    "cognome": "Bloom",
+    "data_nascita": "13/01/1977",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1997",
+    "fine_attivita": "",
+    "in_attivita": "true"
+  },
+  {
+    "id": 6,
+    "nome": "Emma",
+    "cognome": "Watson",
+    "data_nascita": "15/04/1990",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1999",
+    "fine_attivita": "",
+    "in_attivita": "true"
+  },
+  {
+    "id": 7,
+    "nome": "Johnny",
+    "cognome": "Deep",
+    "data_nascita": "09/06/1963",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1984",
+    "fine_attivita": "",
+    "in_attivita": "true"
+  },
+  {
+    "id": 8,
+    "nome": "Jennifer",
+    "cognome": "Morrison",
+    "data_nascita": "12/04/1979",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1994",
+    "fine_attivita": "",
+    "in_attivita": "true"
+  },
+  {
+    "id": 9,
+    "nome": "Tom",
+    "cognome": "Hanks",
+    "data_nascita": "09/07/1956",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1980",
+    "fine_attivita": "",
+    "in_attivita": "true"
+  },
+  {
+    "id": 10,
+    "nome": "Jennifer",
+    "cognome": "Aniston",
+    "data_nascita": "11/02/1969",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1993",
+    "fine_attivita": "",
+    "in_attivita": "true"
+  }
+]
