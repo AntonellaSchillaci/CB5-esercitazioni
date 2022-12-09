@@ -1,0 +1,41 @@
+[
+  {
+    "nome": "Four Rooms",
+    "anno_produzione": "1995",
+    "genere": "commedia",
+    "regista": "Quentin Tarantino",
+    "protagonista": "Tim Roth",
+    "durata": "1h 38m",
+    "candidatura_oscar": "2",
+    "lingua_originale": "inglese",
+    "produzione": "Miramax Films",
+    "sequel": "true"
+  },
+
+  {
+    "nome": "Dark Shadows",
+    "anno_produzione": "2012",
+    "genere": "fantasy",
+    "regista": "Tim Burton",
+    "protagonista": "Johnny Depp",
+    "durata": "1h 53m",
+    "candidatura_oscar": "2",
+    "lingua_originale": "inglese",
+    "produzione": "Warner Bros",
+    "sequel": "false"
+  },
+
+  {
+    "nome": "Titanic",
+    "anno_produzione": "1997",
+    "genere": "romantico/drammatico",
+    "regista": "James Cameron",
+    "protagonista": "Leonardo DiCaprio",
+    "durata": "3h 14m",
+    "candidatura_oscar": "14",
+    "lingua_originale": "inglese/svedese",
+    "produzione": "20th Century Fox",
+    "sequel": "false"
+  }
+
+]

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Videoteca</title>
+  </head>
+  <body>
+    <h1 class="title_film">La mia videoteca: Film</h1>
+    <h3 class="sub_title_attori">Modifica film</h3>
+    <div class="form__container">
+      <form class="cont" name="searchForm">
+        <input
+          id="nome"
+          class="input-edit"
+          type="text"
+          name="nome"
+         placeholder="Cerca TITOLO"
+         required
+        />
+        <button id="btnCerca" class="formButton">Cerca</button>
+      </form>
+    </div>
+    <div id="container" class="container-edit"></div>
+
+    <section class="btnLink">
+        <a href="videoteca"><button class=homeButton>Home</button></a>
+        <a href="home_films"><button class=filButton>Film</button></a>
+    </section>
+
+    <script src="./js/edit_film.js"></script>
+  </body>
+</html>
