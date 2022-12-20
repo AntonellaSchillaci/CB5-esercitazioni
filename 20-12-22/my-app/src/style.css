@@ -1,0 +1,30 @@
+body {
+    background: rgb(65, 58, 58);
+}
+
+.App {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.App:hover {
+    color: rgb(251, 155, 171);
+}
+
+.btn {
+    background-color: rgb(251, 155, 171);
+    border: solid white;
+    border-radius: 20px;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+.btn:hover {
+    background-color: rgb(177, 63, 82);
+    border: solid black;
+    font-weight: bold;
+
+}
