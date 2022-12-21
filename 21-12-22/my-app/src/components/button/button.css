@@ -1,0 +1,30 @@
+.Button {
+    background-color: rgb(251, 155, 171);
+    border: solid white;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+.Button:hover {
+    background-color: rgb(177, 63, 82);
+    border: solid black;
+    font-weight: bold;
+}
+
+.Button--variant-primary {
+    background-color: rebeccapurple;
+    color: #fff;
+}
+
+.Button--variant-secondary {
+    border-color: fuchsia;
+}
+
+.Button--variant-tertiary {
+    background-color: burlywood;
+    border-color: darkgoldenrod;
+}
