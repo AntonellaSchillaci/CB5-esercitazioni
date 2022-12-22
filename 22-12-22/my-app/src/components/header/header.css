@@ -1,0 +1,30 @@
+.Header {
+    background-color: rgb(251, 155, 171);
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    padding: 5px;
+    margin: 5px 2px 2px 2px;
+    display: flex;
+}
+
+
+
+.nav ul{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
