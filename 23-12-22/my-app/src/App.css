@@ -1,0 +1,77 @@
+body {
+    background: rgb(65, 58, 58);
+}
+
+h1 {
+    padding: 0 30px;
+    color: aquamarine;
+
+}
+
+.App {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.container {
+    border: 0.5px solid aquamarine;
+    display: flex;
+    height: 800px;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.todoForm {
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+}
+
+input:focus {
+   outline: solid aquamarine;
+  
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.element {
+    margin: 10px 0;
+    background-color: aquamarine;
+    color: black;
+    padding: 10px 20px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.done:active {
+    background-color: green;
+}
+
+.done:focus {
+    background-color: green;
+}
