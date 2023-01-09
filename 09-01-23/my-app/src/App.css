@@ -1,0 +1,79 @@
+body {
+    background: rgb(65, 58, 58);
+}
+
+h1 {
+    padding: 0 30px;
+    color: aquamarine;
+
+}
+
+ul {
+    padding: 0;
+}
+
+span {
+    text-align: center;
+}
+
+.App {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.container {
+    border: 0.5px solid aquamarine;
+    display: flex;
+    height: 800px;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 8px;
+    border: none;
+    font-size: 20px;
+}
+
+input:focus {
+   outline: solid aquamarine;
+  
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: black;
+    color: aquamarine;
+}
+
+.element {
+    background-color: aquamarine;
+    border: solid black;
+    color: black;
+    width: 400px;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+
