@@ -1,0 +1,65 @@
+.applianceSection {
+    width: 350px;
+    height: 200px;
+    margin: 20px 0;
+    border: 2px solid rgb(255, 0, 234);   
+    border-radius: 20px;
+}
+
+.appliancesContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.appliances1 {
+    display: flex;
+
+}
+ .logo1 {
+    max-width: 80px;
+    max-height: 80px;
+    padding: 10px;
+ }
+
+ .buttonAppliances {
+    display: flex;
+    justify-content: center;
+ }
+
+ .button4 {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:rgba(255, 0, 183, 0.392);
+    border: 1px solid   rgb(255, 0, 234);
+    padding: 5px 8px;
+    cursor: pointer;
+ }
+
+ .button4:hover {
+    background-color:rgba(230, 0, 255, 0.529);
+ }
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    
+  .applianceSection {
+    width: 500px;
+  }
+
+  .appliances1 {
+    justify-content: center;
+  }
+
+}
+
+
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+
+    .applianceSection {
+        width: 700px;
+      }
+
+}
