@@ -1,0 +1,66 @@
+.cardSection {
+    width: 350px;
+    height: 200px;
+    margin: 20px 0;
+    border: 2px solid rgb(0, 183, 255);   
+    border-radius: 20px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.card1 {
+    display: flex;
+
+}
+ .logo1 {
+    max-width: 80px;
+    max-height: 80px;
+    padding: 10px;
+ }
+
+ .buttonCard {
+    display: flex;
+    justify-content: center;
+ }
+
+ .button3 {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:rgba(0, 204, 255, 0.392);
+    border: 1px solid  rgb(0, 183, 255);   
+    border-radius: 20px;
+    padding: 5px 8px;
+    cursor: pointer;
+ }
+
+ .button3:hover {
+    background-color:rgba(0, 157, 255, 0.699);
+ }
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    
+  .cardSection {
+    width: 500px;
+  }
+
+  .card1 {
+    justify-content: center;
+  }
+
+}
+
+
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+
+    .cardSection {
+        width: 700px;
+      }
+
+}

@@ -1,0 +1,98 @@
+
+.Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 350px;
+    height: 230px;
+    margin: 20px 0;
+    border: 2px solid rgb(22, 205, 31);   
+    border-radius: 20px;
+}
+
+.logo1 {
+    max-width: 80px;
+    max-height: 80px;
+    padding: 10px;
+ }
+
+ .counter1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buttonDec {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:rgba(26, 255, 0, 0.392);
+    border: 1px solid   rgb(41, 115, 26);
+    padding: 5px 12px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.buttonDec:hover {
+    background-color:rgba(55, 172, 74, 0.529);
+ }
+
+.buttonInc {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:rgba(26, 255, 0, 0.392);
+    border: 1px solid   rgb(41, 115, 26);
+    padding: 5px 10px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.buttonInc:hover {
+    background-color:rgba(55, 172, 74, 0.529);
+ }
+
+
+.reset {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:rgba(26, 255, 0, 0.392);
+    border: 1px solid   rgb(41, 115, 26);
+    padding: 5px 10px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.reset:hover {
+    background-color:rgba(55, 172, 74, 0.529);
+ }
+
+ .result {
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    
+    .Counter {
+      width: 500px;
+    }
+  
+    .counter1 {
+      justify-content: center;
+    }
+  
+  }
+  
+  
+  /* Desktop */
+  @media only screen and (min-width: 1280px) {
+  
+      .Counter {
+          width: 700px;
+        }
+  
+  }
