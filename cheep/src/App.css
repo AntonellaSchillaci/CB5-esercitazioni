@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+    
+    /* Desktop */
+    @media only screen and (min-width: 1280px) {
+    
+        body {
+            margin: 10px 80px;
+            border-left: 1px solid rgb(222, 62, 163);
+            border-right: 1px solid rgb(222, 62, 163);
+          }
+      
+    }

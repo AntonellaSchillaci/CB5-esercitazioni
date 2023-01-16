@@ -1,0 +1,40 @@
+h4, p {
+  margin: 0 20px 10px 20px;
+}
+.Message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid rgb(222, 62, 163);
+    padding: 6px 18px;
+    margin: 10px 20px 0;
+}
+  
+.Message img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 1px solid rgb(222, 62, 163);
+  background-color: rgba(255, 134, 211, 0.617);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.name {
+  font-weight: bold;
+  color:rgb(117, 109, 109);
+  text-align: center;
+}
+
+.title {
+  color: rgb(222, 62, 163);
+  font-weight: bold;
+  text-align: center;
+}
+  

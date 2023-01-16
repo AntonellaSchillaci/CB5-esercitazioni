@@ -1,0 +1,26 @@
+.MessagesList {
+  margin: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+
+.MessagesList{
+  margin: 30px 100px;
+}
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+
+  .MessagesList{
+    margin: 30px 200px;
+  }
+  
+}
