@@ -1,6 +1,16 @@
 footer {
     background-color: rgba(222, 62, 163, 0.269);
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     font-weight: bold;
+}
+
+.linkLogo {
+    color:  rgb(222, 62, 163);
+    cursor: pointer;
+    margin: 10px;
+}
+
+.linkLogo:hover {
+    color: black;
 }

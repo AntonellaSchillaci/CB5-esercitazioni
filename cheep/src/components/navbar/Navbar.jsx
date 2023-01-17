@@ -12,10 +12,10 @@ function Navbar() {
                 <a href="/home">Home</a>
               </li>
               <li>
-                <a href="/Login">Login</a>
+                <a href="/login">Login</a>
               </li>
               <li>
-                <a href="/contact">Contact</a>
+                <a href="#footer">Contact</a>
               </li>
             </ul>
           </div>

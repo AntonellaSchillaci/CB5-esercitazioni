@@ -4,14 +4,19 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.sectionHome {
+    display: flex;
+    flex-direction: column;
     
-    /* Desktop */
-    @media only screen and (min-width: 1280px) {
-    
-        body {
-            margin: 10px 80px;
-            border-left: 1px solid rgb(222, 62, 163);
-            border-right: 1px solid rgb(222, 62, 163);
-          }
-      
+}
+
+@media only screen and (min-width: 1280px) {
+
+    .sectionHome {
+        display: flex;
+        flex-direction: row;
     }
+  
+} 
+
+  

@@ -1,26 +1,13 @@
 .MessagesList {
-  margin: 0;
+  margin: 55px 0 0 0;
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+  height: 500px;
 }
 
 .list {
   display: flex;
+  max-width: 800px;
   flex-direction: column;
-}
-
-/* Tablet */
-@media only screen and (min-width: 768px) {
-
-.MessagesList{
-  margin: 30px 100px;
-}
-
-}
-
-/* Desktop */
-@media only screen and (min-width: 1280px) {
-
-  .MessagesList{
-    margin: 30px 200px;
-  }
-  
 }
