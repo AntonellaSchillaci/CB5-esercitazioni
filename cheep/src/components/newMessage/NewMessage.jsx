@@ -54,7 +54,6 @@ const NewMessage = () => {
               onChange={(e) => setInputAddDescription(e.target.value)}
               placeholder="What are you thinking about?"
             />
-
             <input className="button" type="submit" value="Send" />  
            </div>
         </form>

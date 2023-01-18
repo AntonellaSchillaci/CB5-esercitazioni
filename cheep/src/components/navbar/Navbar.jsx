@@ -1,18 +1,19 @@
 import "./index.css";
 
 function Navbar() {
+
     return (
         <nav className="Navbar">
           <a href="/">
             <img className="logo" src="./images/logoCheep.png" alt="logo" />
           </a>
           <div className="menu">
-            <ul>
+            <ul className="sectionMenu">
               <li>
                 <a href="/home">Home</a>
               </li>
               <li>
-                <a href="/login">Login</a>
+                <a href="/profile">Profile</a>
               </li>
               <li>
                 <a href="#footer">Contact</a>

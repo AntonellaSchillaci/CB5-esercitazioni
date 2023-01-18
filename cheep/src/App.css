@@ -10,11 +10,35 @@ body {
     
 }
 
+.sectionPopular, .titlePopular{
+    display: none;
+}
+
+
 @media only screen and (min-width: 1280px) {
 
     .sectionHome {
         display: flex;
         flex-direction: row;
+    }
+
+    .sectionPopular {
+        border-left: 1px solid rgb(222, 62, 163);
+        background-color: rgba(234, 204, 236, 0.869);
+        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 940px;
+    }
+    
+    .titlePopular {
+        display: inline;
+        font-size: 20px;
+        color:rgb(222, 62, 163);
+        text-align: center;
+        text-transform: uppercase;
+        
     }
   
 } 

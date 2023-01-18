@@ -3,11 +3,17 @@
   display: flex;
   justify-content: center;
   overflow: scroll;
-  height: 500px;
+  
 }
 
 .list {
   display: flex;
   max-width: 800px;
   flex-direction: column;
+}
+
+@media only screen and (min-width: 1280px) {
+  .MessagesList {
+    height: 800px;
+  }
 }
