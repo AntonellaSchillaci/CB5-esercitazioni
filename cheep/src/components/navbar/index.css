@@ -16,7 +16,7 @@ a {
 }
 
 .logo {
-    padding-left: 8px;
+    padding-left: 10px;
     max-width: 60px;
 }
 
@@ -34,7 +34,7 @@ ul {
 
 .sectionMenu {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     padding: 0 30px;
 }
 

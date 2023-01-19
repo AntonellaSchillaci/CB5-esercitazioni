@@ -3,7 +3,7 @@ import { GET } from "../../utils/http";
 import Friend from "../friend";
 import "./index.css";
 
-const FriendsList = () => {
+const FriendsList = ({setModalContent, setModalEnabled}) => {
   const [friendsList, setFriendsList] = useState([]);
 
   useEffect(() => {
@@ -14,7 +14,11 @@ const FriendsList = () => {
     <div className="FriendsList">
       <h3 className="titleFriends">Friends</h3>
       {friendsList.map((friend) => (
-        <Friend data={friend} key={friend.id} />
+        <Friend 
+        data={friend}
+        setModalContent={setModalContent}
+        setModalEnabled={setModalEnabled} 
+        key={friend.id} />
       ))}
     </div>
   );

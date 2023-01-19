@@ -1,10 +1,15 @@
 import "./index.css";
 
-const Friend = ({ data }) => {
-  const { image, firstName, lastName, address } = data;
+const Friend = ({ data, setModalContent, setModalEnabled }) => {
+  const { id, image, firstName, lastName, address } = data;
+
+  const onHandleClick = () => {
+    setModalContent(id);
+    setModalEnabled(true);
+  };
 
   return (
-    <div className="Friend">
+    <div className="Friend" onClick={onHandleClick} id={id} >
       <img src={image} alt={lastName} />
       <div className="friendText">
         <h3>{`${firstName} ${lastName}`}</h3>
