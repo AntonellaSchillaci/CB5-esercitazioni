@@ -5,7 +5,8 @@ const Footer = () => {
     const year = new Date().getFullYear();
   
     return (
-    // <a name="footer">
+      // eslint-disable-next-line
+    <a name="footer">
       <footer>{`Copyright © Anto💝  ${year}`}
       <div>
         <a href='https://www.linkedin.com/in/antonella-schillaci-872212252/'  rel="noreferrer" target="_blank">
@@ -19,7 +20,7 @@ const Footer = () => {
         </a>
       </div>
       </footer>
-    // </a>
+     </a>
     )
   };
   

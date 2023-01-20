@@ -1,19 +1,19 @@
-import { useState } from "react";
-import Navbar from "./components/navbar/index";
+import { useState, useEffect } from "react";
 import Button from "./components/button";
 import NewMessage from "./components/newMessage/index";
 import FriendsList from "./components/friendsList/index";
 import Filter from "./components/filter/index";
 import MessagesList from "./components/messagesList/index";
-import Footer from "./components/footer/index";
 import Modal from "./components/modal/index"
 import FriendContent from "./components/friendContent/index";
+import Login from "./components/login/index";
 import './App.css';
 
 
 
 function App() {
 
+  const [user, setUser] = useState();
   const [filterState, setFilterState] = useState("");
   const [isModalEnabled, setModalEnabled] = useState(false);
   const [modalContent, setModalContent] = useState("NewMessage");
@@ -23,9 +23,14 @@ function App() {
   setModalContent("NewMessage");
   };
 
-  return (
+  useEffect(() => {
+    if (localStorage.getItem("username")) {
+      setUser(JSON.parse(localStorage.getItem("username")).username);
+    }
+  }, []);
+
+  return  user ? (
     <div className="App">
-        <Navbar /> 
       <div className="sectionHome">
         <FriendsList 
           setModalContent={setModalContent}
@@ -53,10 +58,9 @@ function App() {
           <Button 
             isModalEnabled={isModalEnabled} 
             func={onHandleModal} />
-        </div>
-      <Footer />
+      </div>
     </div>
-  );
+  ) : (<Login/>);
 }
 
 export default App;

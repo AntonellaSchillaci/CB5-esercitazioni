@@ -1,6 +1,17 @@
+import { useState, useEffect } from "react";
 import "./index.css";
 
-function Navbar() {
+const Navbar = () => {
+  const [username, setUsername] = useState();
+
+  useEffect(() => {
+    setUsername(JSON.parse(localStorage.getItem("username")));
+  }, []);
+
+  const onLogout = () => {
+    localStorage.removeItem("username");
+    window.location.reload();
+  };
 
     return (
         <nav className="Navbar">
@@ -9,14 +20,21 @@ function Navbar() {
           </a>
           <div className="menu">
             <ul className="sectionMenu">
+              <li className="username">
+                {username ? (
+                  <img src={username.imgProfile} alt="imgProfile" />
+                ) : (
+                  "Login"
+                )}
+              </li>
               <li>
                 <a href="/home">Home</a>
               </li>
               <li>
-                <a href="/profile">Profile</a>
-              </li>
-              <li>
                 <a href="#footer">Contact</a>
+              </li>
+              <li onClick={onLogout}>
+                <a href="/logout">Logout</a>
               </li>
             </ul>
           </div>

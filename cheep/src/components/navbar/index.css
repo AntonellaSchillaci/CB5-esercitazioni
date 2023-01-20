@@ -7,16 +7,18 @@
 }
 
 li {
-    list-style: none;   
+    list-style: none;  
 }
 
 a { 
     text-decoration: none;
     color: rgb(222, 62, 163);
+    padding: 0;
 }
 
 .logo {
     padding-left: 10px;
+    margin-top:10px;
     max-width: 60px;
 }
 
@@ -38,3 +40,19 @@ ul {
     padding: 0 30px;
 }
 
+.username img  {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: 1px solid rgb(222, 62, 163);
+    background-color: rgba(255, 134, 211, 0.233);
+
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .username img {
+        width: 60px;
+        height: 60px;
+    }
+}
