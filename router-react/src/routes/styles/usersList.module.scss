@@ -1,0 +1,56 @@
+.UsersList {
+
+    h1 {
+        color: greenyellow;
+        text-align: center;
+    }
+
+    ul{
+        margin: 10px;
+        padding: 0;
+        border: none;
+    }
+
+    li {
+        margin: 0;
+        list-style: none;
+        color: whitesmoke;
+        border: 0.5px solid greenyellow;
+        border-radius: 30px;
+        padding: 10px;
+        font-size: 20px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 30px;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    img {
+        width: 60px;
+        background-color: rgba(207, 255, 136, 0.587);
+        border-radius: 100%;
+        border: 2px solid greenyellow;
+    }
+
+    .btnContainer {
+        display: flex;
+        justify-content: center;
+        
+        .buttonHome {
+            font-size: 30px;
+            border-radius: 100%;
+            border: 2px solid greenyellow;
+            color: greenyellow;
+            background: none;
+            cursor: pointer;
+            
+            &:hover {
+                background-color: greenyellow;
+                color: black;
+            }
+        }
+    }
+    }
+
+    

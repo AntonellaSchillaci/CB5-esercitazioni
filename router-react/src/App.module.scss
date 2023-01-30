@@ -1,0 +1,21 @@
+.App {
+  color: greenyellow;
+  text-align: center;
+
+  .link {
+    a{
+      color:greenyellow;
+      &:active {
+        color: greenyellow;
+      }
+      &:visited {
+        color: greenyellow;
+      }
+    }
+    color: greenyellow;
+    font-size: 30px;    
+  }
+
+ 
+}
+

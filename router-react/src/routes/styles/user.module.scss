@@ -1,0 +1,48 @@
+.User {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+    .content {
+    border: 0.5px solid greenyellow;
+    border-radius: 30px;
+    background-color: rgba(17, 26, 3, 0.179);
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+
+    }
+
+    h3 {
+        color: greenyellow;
+        font-size: 25px;
+    }
+
+    h5{
+        color:whitesmoke;
+        font-size: 18px;
+    }
+
+    img{
+        width: 100px;
+        background-color: rgba(207, 255, 136, 0.587);
+        border-radius: 100%;
+        border: 2px solid greenyellow;
+    }
+
+    .buttonHome {
+        font-size: 30px;
+        border-radius: 100%;
+        border: 2px solid greenyellow;
+        color: greenyellow;
+        background: none;
+        margin: 5px;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: greenyellow;
+            color: black;
+        }
+    }
+    
+}
