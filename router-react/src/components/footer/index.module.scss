@@ -1,0 +1,24 @@
+footer {
+    background-color:  rgb(60, 57, 57);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0; 
+    font-weight: bold;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+   
+    .linkLogo {
+        color: greenyellow;
+        cursor: pointer;
+        margin: 10px;
+    }
+    
+    .linkLogo:hover {
+        color: whitesmoke;
+    }
+    
+}
+
