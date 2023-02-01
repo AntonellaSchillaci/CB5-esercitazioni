@@ -1,0 +1,18 @@
+.User {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: yellow;
+
+    a{
+        text-decoration: none;
+        font-size: 25px;
+        color: yellow;
+        margin: 10px;
+
+        &:hover {
+            color:aliceblue;
+            font-weight: bold
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.Users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    h1 {
+        color: yellow;
+    }
+
+    ul {
+        list-style: none;
+        color:aliceblue;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        li {
+            padding: 15px;
+            border: 0.5px solid yellow;
+            border-radius: 30px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: yellow;
+                color: rgb(5, 5, 67); 
+                font-weight: bold;
+            }
+        }
+       
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 25px;
+        color: yellow;
+        margin: 10px;
+
+        &:hover {
+            color:aliceblue;
+            font-weight: bold;
+        }
+    }
+}
