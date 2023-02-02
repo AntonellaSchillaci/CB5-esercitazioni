@@ -1,0 +1,74 @@
+.Gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+
+    .image {
+        width: 400px;
+        border-radius: 30px;
+        border: 0.5px solid yellow;
+        
+    }
+
+    .buttons {
+        display: flex;
+        padding:  0 100px;
+        gap: 20px;
+    }
+
+             
+    .button {
+        background-image: linear-gradient(to right, #fffc00 0%, #ffffff  51%, #fffc00  100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color:  rgb(5, 5, 67);
+        font-size: 25px; 
+        font-weight: bold;
+        font-family: 'Anonymous Pro', monospace;    
+        box-shadow: 0 0 20px whitesmoke;
+        border-radius: 10px;
+        display: block;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        background-position: right center; 
+        color:  rgb(5, 5, 67);
+        text-decoration: none;
+      }
+
+      .button[disabled] {
+        background-image: linear-gradient(#fffb0090 0%, #fffb0090  100%);
+        box-shadow: none;
+    }
+
+    $breakpoint-tablet : 768px;
+    @media (min-width: $breakpoint-tablet) {
+        .image {
+           width: 500px;
+           height: 400px;
+            
+        }
+    }
+
+    $breakpoint-desktop : 1024px;
+    @media (min-width: $breakpoint-desktop) {
+        .image {
+            width: 600px;
+            height: 500px;
+            
+        }
+    }
+     
+}
+
+
+    
+    
+

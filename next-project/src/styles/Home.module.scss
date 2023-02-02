@@ -28,4 +28,36 @@
         }
     }
 
+    input[type=range] {
+        -webkit-appearance: none;
+        width: 50%;
+        height: 15px;
+        background: rgb(5, 5, 67);
+        outline: none;
+        border: 3px solid yellow;
+        border-radius: 8px;
+
+        &::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 60px;
+            background:red;
+            cursor: pointer;
+            border: 5px solid yellow;
+            border-radius: 4px;
+          }
+
+        &::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 15px;
+            height: 60px;
+            background: yellow;
+            cursor: pointer;
+            border: 1px solid yellow;
+            border-radius: 6px;
+          }
+    }
+
 }
