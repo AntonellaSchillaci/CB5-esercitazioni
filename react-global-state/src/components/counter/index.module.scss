@@ -1,0 +1,23 @@
+.Counter {
+    display: flex;
+    gap: 30px;
+    font-size: 55px;
+    margin-top: 30px;
+
+    button {
+        border-radius: 100%;
+        border: 1px solid rgb(23, 22, 22);
+        background-color: rgb(244, 196, 204);
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: aqua;
+        }
+        
+        &:active {
+            background-color: cornflowerblue;
+        }
+    }
+}
