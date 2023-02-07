@@ -1,0 +1,41 @@
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+    h1 {
+         font-size: 40px;
+         text-transform: uppercase;
+         background: linear-gradient(83deg,  #e85566 40%, #2b88ba 100%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         background-clip: text;
+        }
+
+    input {
+        font-size: 25px;
+        padding: 20px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+       
+    }
+
+    $breakpoint-tablet: 768px;
+    @media (min-width: $breakpoint-tablet) {
+        input {
+           width: 600px;
+        }
+    }
+
+    $breakpoint-desktop: 1024px;
+    @media (min-width: $breakpoint-desktop) {
+        input {
+            width: 800px;
+        }
+    }
+}
+
+
+  

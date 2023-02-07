@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-image: linear-gradient(to right, #ffc0cb, #87cefa);
+
+}

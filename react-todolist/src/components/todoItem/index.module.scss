@@ -1,0 +1,56 @@
+.TodoItem {
+    margin: 0;
+    cursor: pointer;
+  
+    .container {
+      border: 1px solid #2b88ba;
+      padding: 10px 10px;
+      border-radius: 20px;
+      margin: 30px;
+      display: flex;
+      justify-content: space-between;
+
+      &:hover {
+        background-color: #2b88ba;
+        color: white;
+        .icon {
+          color: white;
+        }
+      }
+    
+      &:active {
+        background-color: #ff6e7f;
+      }
+
+      .icon {
+        font-size: 30px;
+        margin-right: 20px;
+        color: #2b88ba;
+      }
+    }
+    
+    p {
+       margin: 0 0 0 20px;
+       font-family: 'Indie Flower', cursive; 
+       font-size: 28px;
+    }
+
+    $breakpoint-tablet: 768px;
+    @media (min-width: $breakpoint-tablet) {
+        .container {
+           margin: 80px;
+        }
+    }
+
+    $breakpoint-desktop: 1024px;
+    @media (min-width: $breakpoint-desktop) {
+        .container{
+            margin: 30px 200px;
+        }
+    }
+  }
+  
+  .statusDone {
+    text-decoration: line-through;
+    color: #ff6e7f;
+  }
